@@ -1,0 +1,71 @@
+<html lang="ru-RU">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <style>
+                  table {border: solid 1px blue;width="300"; style="float: left;"}
+                  th {border: solid 1px blue;}
+				  td {border: solid 1px blue;}
+ </style>
+ <title>меню игры</title>
+</head>
+  <form class="form-horizontal" action="game" method="GET">
+   <fieldset>
+
+<!-- Form Name -->
+<legend>меню</legend>
+
+<!-- Button -->
+ 
+    <button id="startbtn" name="startbtn" value="продолжить">
+	   продолжить
+	</button>
+
+<!-- Button -->
+    <button id="startbtn" name="startbtn" value="начать">
+	   новая игра
+	</button></br>
+	<a href="autorization">войти</a>
+ 
+ <!-- Multiple Radios -->
+ <div class="form-group">
+  <label class="col-md-4 control-label" for="radios">выберите сложность</label>
+  <div class="col-md-4">
+  <div class="radio">
+    <label for="radios-0">
+      <input type="radio" name="radios" id="radios-0" value="1" checked="checked">
+      легкий-0
+    </label>
+	</div>
+  <div class="radio">
+    <label for="radios-1">
+      <input type="radio" name="radios" id="radios-1" value="2">
+      средний-00
+    </label>
+	</div>
+  <div class="radio">
+    <label for="radios-2">
+      <input type="radio" name="radios" id="radios-2" value="3">
+      сложный-000
+    </label>
+	</div>
+  <div class="radio">
+    <label for="radios-3">
+      <input type="radio" name="radios" id="radios-3" value="4">
+      самый сложный-0000
+    </label>
+	</div>
+  </div>
+ </div>
+ <form>
+ <fieldset>
+ <legend>таблицы рекордов</legend>
+ <a href="easytable">легкий</a>
+ <a href="normaltable">нормальный</a>
+ <a href="hardtable">сложный</a>
+ <a href="varyhardtable">самый сложный</a>
+ </fieldset>
+ </form>
+  </fieldset>
+ </form>
+</html>
